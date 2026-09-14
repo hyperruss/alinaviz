@@ -164,8 +164,6 @@ h1 em { color: var(--orange); }
 .contact-actions { display: flex; flex-wrap: wrap; gap: 10px; }
 .button-light { background: var(--acid); color: var(--ink); }
 .button-light:hover { background: white; }
-.button-outline { border-color: rgba(255,255,255,.35); color: white; }
-.button-outline:hover { border-color: white; }
 .contact-details { align-self: end; display: grid; grid-template-columns: 1fr 1fr; }
 .contact-details > div { min-height: 106px; padding: 25px 20px; border-top: 1px solid rgba(255,255,255,.16); display: flex; flex-direction: column; }
 .contact-details > div:nth-child(odd) { border-right: 1px solid rgba(255,255,255,.16); padding-left: 0; }

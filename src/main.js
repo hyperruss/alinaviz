@@ -1,5 +1,3 @@
-import './style.css';
-
 document.querySelector('#year').textContent = new Date().getFullYear();
 
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
